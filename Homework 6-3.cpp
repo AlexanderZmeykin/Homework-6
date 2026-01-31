@@ -19,16 +19,19 @@ int main()
     std::cout << "Введите число: ";
     std::cin >> n;
 
-    if (n < 0) {
+    if (n < 0) 
+    {
         std::cout << "Число должно быть неотрицательным!" << std::endl;
         return 1;
     }
 
     std::cout << "Числа Фибоначчи: ";
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         std::cout << fibonacci(i) << "  ";
     }
     std::cout << std::endl;
 
     return 0;
+
 }
